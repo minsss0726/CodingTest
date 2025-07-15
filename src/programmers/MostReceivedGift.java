@@ -1,5 +1,11 @@
 package programmers;
 
+/**
+ * @title 가장 많이 받은 친구
+ * @author 김민중
+ * @see https://school.programmers.co.kr/learn/courses/30/lessons/258712
+ * @category 2024 KAKAO WINTER INTERNSHIP, 구현, 문자열 처리
+ */
 public class MostReceivedGift {
 	public int solution(String[] friends, String[] gifts) {
 		int answer = 0;

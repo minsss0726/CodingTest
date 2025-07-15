@@ -1,5 +1,11 @@
 package programmers;
 
+/**
+ * @title 택배 상자 꺼내기
+ * @author 김민중
+ * @see https://school.programmers.co.kr/learn/courses/30/lessons/389478
+ * @category 2025 프로그래머스 코드챌린지 2차 예선, 구현
+ */
 public class TakeOutTheDeliveryBox {
 	public int solution(int n, int w, int num) {
 		int answer = 0;

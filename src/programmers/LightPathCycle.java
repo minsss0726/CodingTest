@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @title 빛의 경로 사이클
+ * @author 김민중
+ * @see https://school.programmers.co.kr/learn/courses/30/lessons/86052
+ * @category 월간 코드 챌린지 시즌 3, 구현
+ */
 class LightPathCycle {
 	List<List<Integer>> input_dir = Arrays.asList(Arrays.asList(1, 0), Arrays.asList(-1, 0), Arrays.asList(0, -1),
 			Arrays.asList(0, 1));

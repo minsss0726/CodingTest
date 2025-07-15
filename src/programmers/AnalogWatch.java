@@ -1,5 +1,11 @@
 package programmers;
 
+/**
+ * @title 아날로그 시계
+ * @author 김민중
+ * @see https://school.programmers.co.kr/learn/courses/30/lessons/250135
+ * @category PCCP 기출문제, 구현
+ */
 class AnaloWatch {
 
 	boolean isFirst = true;
