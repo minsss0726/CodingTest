@@ -1,4 +1,4 @@
-package programmers;
+package lv1;
 
 /**
  * @title 붕대감기

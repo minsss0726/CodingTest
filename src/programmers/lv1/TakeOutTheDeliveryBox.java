@@ -1,4 +1,4 @@
-package programmers;
+package lv1;
 
 /**
  * @title 택배 상자 꺼내기

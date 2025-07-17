@@ -1,4 +1,4 @@
-package programmers;
+package lv2;
 
 /**
  * @title 도넛과 막대 그래프

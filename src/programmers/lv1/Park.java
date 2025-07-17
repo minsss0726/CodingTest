@@ -1,9 +1,9 @@
-package programmers;
+package lv1;
 
 import java.util.Arrays;
 
 /**
- * @title 공원 산책
+ * @title 공원
  * @author 김민중
  * @see https://school.programmers.co.kr/learn/courses/30/lessons/340198
  * @category PCCE 기출문제, 구현

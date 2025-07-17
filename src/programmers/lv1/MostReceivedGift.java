@@ -1,7 +1,7 @@
-package programmers;
+package lv1;
 
 /**
- * @title 가장 많이 받은 친구
+ * @title 가장 많이 받은 선물
  * @author 김민중
  * @see https://school.programmers.co.kr/learn/courses/30/lessons/258712
  * @category 2024 KAKAO WINTER INTERNSHIP, 구현, 문자열 처리

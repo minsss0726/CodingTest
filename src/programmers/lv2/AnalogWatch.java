@@ -1,4 +1,4 @@
-package programmers;
+package lv2;
 
 /**
  * @title 아날로그 시계
