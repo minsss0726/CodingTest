@@ -3,6 +3,13 @@ package codetest.shinhan.test250829;
 import java.util.*;
 
 public class Question2 {
+
+    public static void main(String[] args) {
+        Question2 question2 = new Question2();
+        int[] numbers = {2,2,4};
+        System.out.println(question2.solution(numbers));
+    }
+
     public int solution(int[] numbers) {
         int answer = 0;
 
@@ -16,7 +23,7 @@ public class Question2 {
             map.replace(number,map.get(number)+1);       
         }
 
-        // System.out.println(map);
+        System.out.println(map);
 
         int last_num = numbers.length + 1;
 

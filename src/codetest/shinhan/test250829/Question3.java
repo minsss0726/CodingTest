@@ -1,11 +1,21 @@
 package codetest.shinhan.test250829;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
 public class Question3 {
+
+
+    public static void main(String[] args) {
+        Question3 question3 = new Question3();
+        String message = "bananatree";
+        int n = 2;
+        System.out.println(Arrays.toString(question3.solution(message, n)));
+    }
+
     public int[] solution(String message, int n) {
         int[] answer = new int[2];
         answer[0] = message.length();
@@ -32,14 +42,15 @@ public class Question3 {
                 if(str1.charAt(j) == str2.charAt(j)){
                     answer[0]--;
                     used.add(str2.charAt(j));
+                    System.out.println(str2.charAt(j));
                 }
             }
         }
 
         answer[1] = used.size();
 
-        // System.out.println(list);
-
+        System.out.println(list);
+        System.out.println(used);
         return answer;
     }
 }
