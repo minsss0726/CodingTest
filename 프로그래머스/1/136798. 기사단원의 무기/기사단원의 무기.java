@@ -29,5 +29,21 @@ class Solution {
             }
         }
         return list.size();
+        
+        
+        // int count = 0;
+        // for (int i = 1; i <= number ;i++){
+        //     if( i > (number / 2)) break;
+        //     if ( number % i == 0) {
+        //         count++;
+        //         if ( i != (number / i)) {
+        //             count++;
+        //         }
+        //         System.out.print(i+" "+(number/i)+" ");
+        //     }
+        //     if((number/i) <= (number/2)) break;
+        // }
+        // System.out.println("");
+        // return count;
     }
 }
