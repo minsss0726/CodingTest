@@ -4,8 +4,8 @@ class Solution {
         int line = (brown - 4) / 2;
         for (int i = 1; i <= line; i++){
             if (i * (line-i) == yellow){
-                answer[0] = Math.max(i,line-i) + 2;
-                answer[1] = Math.min(i,line-i) + 2;
+                answer[1] = i + 2;
+                answer[0] = line - i + 2;
                 break;
             }
         }
