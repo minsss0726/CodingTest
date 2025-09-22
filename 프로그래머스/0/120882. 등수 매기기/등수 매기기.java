@@ -14,8 +14,8 @@ class Solution {
         
         Arrays.sort(sorted_average);
         
-        System.out.println(Arrays.toString(score_average));
-        System.out.println(Arrays.toString(sorted_average));
+        // System.out.println(Arrays.toString(score_average));
+        // System.out.println(Arrays.toString(sorted_average));
         
         int rank = 1;
         int up_count = 0;
@@ -24,7 +24,7 @@ class Solution {
            for ( int j = 0 ; j < score_average.length ; j ++){
                if (sorted_average[i] == score_average[j]){
                    answer[j] = rank; 
-                   System.out.println(Arrays.toString(answer));
+                   // System.out.println(Arrays.toString(answer));
                    up_count++;
                }
             }
