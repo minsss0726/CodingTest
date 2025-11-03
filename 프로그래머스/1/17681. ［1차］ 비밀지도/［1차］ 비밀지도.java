@@ -6,19 +6,19 @@ class Solution {
         
         for(int i = 0; i < n; i++){
             String numBin = Integer.toBinaryString(arr1[i] | arr2[i]);
-            answer[i] = numBin;
+            answer[i] = String.format("%"+String.valueOf(n)+"s",numBin).replace("1","#").replace("0"," ");
         }
         
-        for(int i = 0; i < n; i++){
-            answer[i] = answer[i].replace("1","#").replace("0"," ");
-            if(answer[i].length() < n){
-                for(int j = 0; j <= n - answer[i].length(); j++){
-                    answer[i] = " " + answer[i];
-                }
-            } else if(answer[i].length() > n){
-                answer[i] = answer[i].substring( answer[i].length()-n, answer[i].length());
-            }
-        }
+        // for(int i = 0; i < n; i++){
+        //     answer[i] = answer[i].replace("1","#").replace("0"," ");
+        //     if(answer[i].length() < n){
+        //         for(int j = 0; j <= n - answer[i].length(); j++){
+        //             answer[i] = " " + answer[i];
+        //         }
+        //     } else if(answer[i].length() > n){
+        //         answer[i] = answer[i].substring( answer[i].length()-n, answer[i].length());
+        //     }
+        // }
         
         return answer;
     }
